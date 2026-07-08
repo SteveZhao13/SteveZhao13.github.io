@@ -41,13 +41,10 @@
             <a class="nav-link js-scroll-trigger" href="#about">Overview</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -66,10 +63,10 @@
           <h1 class="mb-0">Qi
             <span class="text-primary">Zhao</span>
           </h1>
-          <div class="subheading mb-5">88 Harbour St, Toronto, ON · (416)-666-0743 ·
+          <div class="subheading mb-5">Toronto, ON, Canada · (416)-666-0743 ·
             <a href="mailto:steve-qi.zhao@outlook.com">steve-qi.zhao@outlook.com</a>
           </div>
-          <p class="lead mb-5">I am a Software Developer at <a href="https://www.soti.net/" target="_blank">SOTI Inc.</a></p>
+          <p class="lead mb-5">I am a Software Development Engineer at <a href="https://www.amazon.com/" target="_blank">Amazon</a> (Alexa / Edge AI), with 7+ years of experience building edge-AI and on-device systems in C++/Python across embedded Linux, automotive, and ambient-computing platforms. I enjoy turning ambiguous, greenfield architecture into shipped, reusable systems, and have recently extended my on-device work into cloud-based LLM pipelines that reason over ambient perception data.</p>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/qizhao13" target="_blank">
               <i class="fab fa-linkedin-in"></i>
@@ -89,140 +86,76 @@
 
       <hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Toronto</h3>
-              <div class="subheading mb-3">Master of Science in Applied Computing (<a href="https://mscac.utoronto.ca/">MScAC</a>)</div>
-              <div><a href="https://web.cs.toronto.edu/">Department of Computer Science</a></div>
-              <div>
-                <p>Completed all courses with excellent grades.<br>Took 8-month internship at SOTI and completed porting of Tizen system project from scratch.</p>
-                <a href="files/ARIA2019Banner_SOTI-Tizen.pdf" target="_blank">Click here to see ARIA 2019 Banner</a>
-                <a>, </a>
-                <a href="files/InternshipReport_Qi.pdf" target="_blank">Internship Report</a>
-                <a>or</a>
-                <a href="files/Mitacs_Accelerate_Final_Report_Qi.pdf" target="_blank" download="newfile">Download Mitacs Accelerate Award Report</a>
-              </div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Sep 2018 - Dec 2019</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Xi'an Jiaotong University (China)</h3>
-              <div class="subheading mb-3">Bachelor of Engineering (BEng)</div>
-              <div><a href="http://www.cs.xjtu.edu.cn/" target="_blank">Department of Computer Science and Technology</a>, School of Electronic and Information Engineering</div>
-              <p>GPA: 3.58 / Average Score: 86.55</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Sep 2014 - Jun 2018</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">National Taiwan University of Science and Technology (Taiwan)</h3>
-              <div class="subheading mb-3">Student Exchange Program</div>
-              <div><a href="https://www.csie.ntust.edu.tw/home.php?Lang=en" target="_blank">Department of Computer Science and Information Engineering</a>, College of Electrical and Computer Engineering</div>
-              <p>GPA: 4.07</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Sep 2016 - Jan 2017</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-
-
-      <hr class="m-0">
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-5">Work Experience</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto mb-5">
-              <h3 class="mb-0">Software Developer – Linux Project</h3>
-              <div class="subheading mb-3">SOTI Inc, Mississauga, Canada</div>
+              <h3 class="mb-0">Software Development Engineer – Ambient AI &amp; GenAI (Edge and Cloud)</h3>
+              <div class="subheading mb-3">Amazon (Alexa / Edge AI), Toronto, Canada</div>
               <li>
                 <i class="fa-li fa fa-check-circle"></i>
-                Designed the Scheduler Module to handle scheduled execution of scripts in multi-thread environment.
+                As the team extended its on-device small-LLM platform to the cloud, designed the cloud evaluation system — enabling reproducible, faster-than-real-time replay of recorded multimodal data through the live production stack via a unified virtual-clock abstraction, replacing drift-prone one-off scripts with a single source of truth for model evaluation and end-to-end system verification.
               </li>
               <li>
                 <i class="fa-li fa fa-check-circle"></i>
-                Composed the PackageManager Module to manage packages on different Linux distros using design pattern.
+                As founding engineer on a greenfield on-device ambient-AI platform, designed and built its core — a LangGraph-based task and workflow orchestration framework backed by a Neo4j knowledge-graph context store — plus a rapid-experimentation framework that cut new-task iteration from days to hours.
               </li>
               <li>
                 <i class="fa-li fa fa-check-circle"></i>
-                Refactored modules of network connection manager and kiosk mode to enhance software stability and applicability.
+                Owned end-to-end delivery of on-device LLM inference capabilities, leading design and integration across multiple partner teams, and drove the first in-vehicle demonstration of an on-device LLM to VP-level leadership, validating technical feasibility for the program.
               </li>
-              <li>
-                <i class="fa-li fa fa-check-circle"></i>
-                Improved bash scripts for Linux agent to offer password protected enrollment and to accomplish interactive prompts.
-              </li>
-              <li>
-                <i class="fa-li fa fa-check-circle"></i>
-                Supported source code coverage. Integrated auto-generation of unit test coverage report into CI/CD pipeline.
-              </li>
-
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Jan 2021 – Present</span>
+              <span class="text-primary">2025 – Present</span>
             </div>
           </div>
 
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto mb-5">
-              <h3 class="mb-0">Software Developer – Tizen Project</h3>
-              <div class="subheading mb-3">SOTI Inc, Mississauga, Canada</div>
+              <h3 class="mb-0">Software Development Engineer – Alexa Hybrid Engine (AHE)</h3>
+              <div class="subheading mb-3">Amazon (Alexa / Edge AI), Toronto, Canada</div>
               <li>
                 <i class="fa-li fa fa-check-circle"></i>
-                Developed a Tizen native UI application to enroll the MobiControl agent into SOTI MobiControl cloud environment.
+                Led the port and production bring-up of AHE onto an Amazon-customized embedded Linux OS and a Qualcomm-based automotive platform, re-architecting AHE into a system service and owning the end-to-end release lifecycle — Yocto recipes, CI/CD, OTA/model delivery, and release stabilization.
               </li>
               <li>
                 <i class="fa-li fa fa-check-circle"></i>
-                Completed full porting process of Tizen agent, including enrollment, sending notification, remote control, collecting watch sensor data, etc. Deployed Tizen agent into production environment.
+                Primary technical point of contact for the automotive workstream — bridged 10+ internal partner/domain teams and served as sole AHE contact for OEM customer programs (BMW, Stellantis), owning design decisions, critical code reviews, and technical guidance that unblocked OEM program releases.
               </li>
               <li>
                 <i class="fa-li fa fa-check-circle"></i>
-                Conducted work on cmake, make and cross-compiling through different platforms.
+                Led end-to-end security certification of AHE across both Automotive and Amazon Echo programs (architecture review, threat modeling, Coverity/Fortify + manual code review, third-party penetration testing, and incident-response planning), producing reusable tooling and docs adopted as the baseline for later reviews.
               </li>
-
+              <li>
+                <i class="fa-li fa fa-check-circle"></i>
+                Mentored new hires and junior engineers (onboarding, code reviews, knowledge-transfer sessions, runbooks) and interviewed candidates as part of the team's hiring process — strengthening team ramp-up and growth.
+              </li>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Feb 2020 – Dec 2020</span>
+              <span class="text-primary">May 2022 – 2025</span>
             </div>
           </div>
 
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto mb-5">
-              <h3 class="mb-0">Research & Development (Student Intern)</h3>
+              <h3 class="mb-0">Software Developer</h3>
               <div class="subheading mb-3">SOTI Inc, Mississauga, Canada</div>
               <li>
                 <i class="fa-li fa fa-check-circle"></i>
-                Developed an agent (Tizen native service application) that runs on Tizen system and talks to SOTI MobiControl server.
+                Designed core C++ modules for a Linux device-management agent — a multithreaded task scheduler and a cross-distribution package manager — and refactored networking and kiosk-mode components to improve stability.
               </li>
               <li>
                 <i class="fa-li fa fa-check-circle"></i>
-                Ported the most useful features and functions from the existing SOTI Linux MobiControl agent to the Tizen agent.
-              </li>
-              <li>
-                <i class="fa-li fa fa-check-circle"></i>
-                Achieved inbound and outbound remote control between Tizen devices and SOTI MobiControl server.
+                Built and shipped a Tizen native agent (enrollment, notifications, remote control, sensor collection) to production across CMake/cross-compilation, and added automated unit-test coverage reporting to the CI/CD pipeline.
               </li>
 
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">May 2019 – Dec 2019</span>
+              <span class="text-primary">May 2019 – May 2022</span>
             </div>
           </div>
 
@@ -281,88 +214,55 @@
 
       <hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
-          <h2 class="mb-5">Projects</h2>
+          <h2 class="mb-5">Education</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto mb-5">
-              <h3 class="mb-0">Course Projects, University of Toronto, Canada</h3>
-                <div class="subheading mb-1">SMPE: Stock Market Prediction on Edge, Edge Computing</div>
-                <div class="resume-date text-md-right">
-                  <span class="text-primary">Sep 2018 - Dec 2018</span>
-                </div>
-                <div class="mb-4">
-                    <li>
-                        <i class="fa-li fa fa-check-circle"></i>
-                        Established a three-layered LSTM prediction model using Python TensorFlow and deployed it in an Android mobile app.
-                    </li>
-                    <li>
-                        <i class="fa-li fa fa-check-circle"></i>
-                        Built a mobile-edge-cloud system on Python Flask to offload stock market prediction from Microsoft Azure Cloud into the edge server and reduced latency by more than 35%.
-                    </li>
-                    <a href="files/CSC2228 Project Final Report.pdf" target="_blank">Click here to see SMPE Project Report</a>
-                    <a>or</a>
-                    <a href="files/CSC2228 Project Slides-SMPE.pdf" target="_blank">Slides</a>
-                </div>
-
-                <div class="subheading mb-1">Vehicle Collision Analysis in Toronto, Data Science and Analytics</div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">Sep 2018 - Dec 2018</span>
-                </div>
-                    <li>
-                        <i class="fa-li fa fa-check-circle"></i>
-                        Streamlined open-source vehicle collision database in Toronto to construct the best-fit prediction model utilizing Python.
-                    </li>
-                    <li>
-                        <i class="fa-li fa fa-check-circle"></i>
-                        Proposed feasible solutions to problems revealed from model to facilitate adequate preparation for possible future collisions.
-                    </li>
-                <a href="files/mie1624 Report.pdf" target="_blank">Click here to see Project Report</a>
-                <a>,</a>
-                <a href="files/Project presentation_Group19.pdf" target="_blank">Slides</a>
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Toronto</h3>
+              <div class="subheading mb-3">Master of Science in Applied Computing (<a href="https://mscac.utoronto.ca/">MScAC</a>)</div>
+              <div><a href="https://web.cs.toronto.edu/">Department of Computer Science</a></div>
+              <div>
+                <p>Completed all courses with excellent grades.<br>Took 8-month internship at SOTI and completed porting of Tizen system project from scratch.</p>
+                <a href="files/ARIA2019Banner_SOTI-Tizen.pdf" target="_blank">Click here to see ARIA 2019 Banner</a>
+                <a>, </a>
+                <a href="files/InternshipReport_Qi.pdf" target="_blank">Internship Report</a>
                 <a>or</a>
-                <a href="files/Group19_Final.ipynb" download="ipython Notebook.ipynb">Download the Project ipython Notebook</a>
+                <a href="files/Mitacs_Accelerate_Final_Report_Qi.pdf" target="_blank" download="newfile">Download Mitacs Accelerate Award Report</a>
+              </div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sep 2018 - Dec 2019</span>
             </div>
           </div>
 
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto mb-5">
-                    <h3 class="mb-0">YLAB Wireless Network and Network Security Lab, Xi’an Jiaotong University, China</h3>
-                    <div class="subheading mb-1">Dynamic Guidance Decision Algorithm in Intelligent Transportation Systems</div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">Oct 2017 - May 2018</span>
-                    </div>
-                    <div class="mb-4">
-                        <li>
-                            <i class="fa-li fa fa-check-circle"></i>
-                            Implemented a dynamic real-time route guidance algorithm with en-route decision making strategy through MATLAB which can significantly reduce travel time and improve traffic efficiency.
-                        </li>
-                        <a href="files/graduation_final_report.pdf" target="_blank">Click here to see DRGE Project Report(in Chinese)</a>
-                        <a>or</a>
-                        <a href="files/graduation_abstract.pdf" target="_blank">one page Abstract(in English)</a>
-                    </div>
-
-                    <div class="subheading mb-1">Wi-Fi Selector for Android Devices</div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">Mar 2017 - Jul 2017</span>
-                    </div>
-                    <li>
-                        <i class="fa-li fa fa-check-circle"></i>
-                        Designed the graphic user interface and functions of the Wi-Fi Selector application in Java.
-                    </li>
-                    <li>
-                        <i class="fa-li fa fa-check-circle"></i>
-                        Created a MySQL database within the framework of the application to load data into the Tomcat server.
-                    </li>
-                </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Xi'an Jiaotong University (China)</h3>
+              <div class="subheading mb-3">Bachelor of Engineering (BEng)</div>
+              <div><a href="http://www.cs.xjtu.edu.cn/" target="_blank">Department of Computer Science and Technology</a>, School of Electronic and Information Engineering</div>
+              <p>GPA: 3.58 / Average Score: 86.55</p>
             </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sep 2014 - Jun 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">National Taiwan University of Science and Technology (Taiwan)</h3>
+              <div class="subheading mb-3">Student Exchange Program</div>
+              <div><a href="https://www.csie.ntust.edu.tw/home.php?Lang=en" target="_blank">Department of Computer Science and Information Engineering</a>, College of Electrical and Computer Engineering</div>
+              <p>GPA: 4.07</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sep 2016 - Jan 2017</span>
+            </div>
+          </div>
 
         </div>
       </section>
-
-
 
       <hr class="m-0">
 
@@ -385,13 +285,7 @@
               <img src="img/java_logo.png" alt="Java" width="62"/>
             </li>
             <li class="list-inline-item">
-              <img src="img/matlab_logo.png" alt="MATLAB" width="66"/>
-            </li>
-            <li class="list-inline-item">
               <img src="img/linux_logo.png" alt="Linux Bash" width="58"/>
-            </li>
-            <li class="list-inline-item">
-              <img src="img/tizen-os-logo.jpg" alt="Tizen" width="65"/>
             </li>
           </ul>
 
@@ -405,19 +299,43 @@
             </li>
           </ul>
 
+          <div class="subheading mb-2">AI / ML</div>
+          <ul class="fa-ul mb-5">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              On-device / edge LLMs, LangChain / LangGraph, prompt engineering &amp; LLM evaluation, Amazon Bedrock
+            </li>
+          </ul>
+
+          <div class="subheading mb-2">Systems &amp; Infrastructure</div>
+          <ul class="fa-ul mb-5">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Embedded Linux, Yocto / BitBake, systemd, CMake, cross-compilation, multithreading
+            </li>
+          </ul>
+
+          <div class="subheading mb-2">Cloud, Data &amp; Platforms</div>
+          <ul class="fa-ul mb-5">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Amazon AWS (Lambda, SQS, DynamoDB), SQL / NoSQL, Neo4j, Android
+            </li>
+          </ul>
+
           <div class="subheading mb-2">Other Skills &amp; Knowledge</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Development Tools: Git, Azure DevOps, GitHub Enterprise
+              Development Tools: Git, GitHub Enterprise, Azure DevOps
             </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              CI/CD Pipeline: Jenkins, GoCD
+              CI/CD Pipeline &amp; OTA/model delivery
             </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Teamwork Tools: Jira, Kanban
+              Teamwork Tools: Jira, Asana, Kanban
             </li>
           </ul>
         </div>
